@@ -1,0 +1,5 @@
+<input text="text" bindinput="handleInput"></input>
+<view>{{num}}</view>
+  
+<button bindtap="onTapBtn" data-operation="{{2}}">Add</button>
+<button bindtap="onTapBtn" data-operation="{{-2}}">Reduce</button>

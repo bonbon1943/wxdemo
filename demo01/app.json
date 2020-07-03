@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/mainPage/mainPage",
+    "pages/myPage/myPage",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Demo01",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#0000ff",
+    "backgroundColor": "#777777",
+    "list": [{
+        "pagePath": "pages/mainPage/mainPage",
+        "text": "Main"
+      },
+      {
+        "pagePath": "pages/myPage/myPage",
+        "text": "My"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
