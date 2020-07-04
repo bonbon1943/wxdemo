@@ -1,0 +1,14 @@
+<radio-group bindchange="onRadioChange">
+    <radio value="male" color="">
+        男
+    </radio>
+    <radio value="female" color="">
+        女
+    </radio>      
+</radio-group>
+
+<view>
+    您当前选中的是:{{gender}}
+</view>
+  
+  

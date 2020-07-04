@@ -43,8 +43,9 @@
     <view wx:elif="{{false}}">3</view>  
     <view wx:else>4</view>
 </view>
-  
-<view hidden>hidden1</view>
+
+<!--hidden隐藏-->
+<view  hidden>hidden1</view>
 <view hidden="{{true}}">hidden2</view>
 <view hidden="{{false}}">-------------------</view>
   

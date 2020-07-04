@@ -1,5 +1,9 @@
 <input text="text" bindinput="handleInput"></input>
 <view>{{num}}</view>
+
+<!-- button监听函数onTapBtn传参，使用"data-xxx" -->
+<button bindtap="onTapBtn" data-operation="{{1}}">Add</button>
+<button bindtap="onTapBtn" data-operation="{{-1}}">Reduce</button>
+
+<navigator url="/pages/userInfo/userInfo" open-type="navigate">跳转到info页面</navigator>
   
-<button bindtap="onTapBtn" data-operation="{{3}}">Add</button>
-<button bindtap="onTapBtn" data-operation="{{-3}}">Reduce</button>
