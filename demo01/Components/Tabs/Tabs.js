@@ -37,7 +37,7 @@ Component({
       //     tabs:list
       //   }
       // );
-      
+
       this.triggerEvent("ItemChange", {cur_id});
     }
   }
